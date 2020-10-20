@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css"> 
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <form name="clac" class="calc">
+  
+      <div class="row"> <input type="text"  class="form-control" name='Input' id="tx" disabled> </div>
+      <div class="row">
+       <input type="button" value="1" class="btn btn-light" onclick="clac.Input.value+=1">
+         <input type="button" value="2" class="btn btn-light" onclick="clac.Input.value+=2">
+         <input type="button" value="3" class="btn btn-light" onclick="clac.Input.value+=3">
+       <input type="button" value="+" class="btn btn-light" onclick="clac.Input.value+='+'">
+     </div>
+     <div class="row">
+       <input type="button" value="4" class="btn btn-light" onclick="clac.Input.value+=4">
+         <input type="button" value="5" class="btn btn-light" onclick="clac.Input.value+=5">
+         <input type="button" value="6" class="btn btn-light" onclick="clac.Input.value+=6">
+       <input type="button" value="*" class="btn btn-light" onclick="clac.Input.value+='*'">
+     </div>
+     <div class="row">
+       <input type="button" value="7" class="btn btn-light" onclick="clac.Input.value+=7">
+         <input type="button" value="8" class="btn btn-light" onclick="clac.Input.value+=8">
+         <input type="button" value="9" class="btn btn-light" onclick="clac.Input.value+=9">
+       <input type="button" value="-" class="btn btn-light" onclick="clac.Input.value+='-'">
+     </div>
+     <div class="row">
+         <input type="button" value="AC" class="btn btn-light" id="sa">
+         <input type="button" value="0" class="btn btn-light" onclick="clac.Input.value+=0">
+         <input type="button" value="/" class="btn btn-light" onclick="clac.Input.value+='/'">
+       <input type="button" value="=" class="btn btn-light" onclick="clac.Input.value+='='">
+     </div>
+    </form>
+   </div>
+
+
+
+   <!-- my script -->
+  <script src="js/script.js">
+    
+  </script>
+</body>
+</html>
